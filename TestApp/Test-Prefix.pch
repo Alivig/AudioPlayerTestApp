@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'TestApp' target in the 'TestApp' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import "IATConstants.h"
+    #import "NSArray+IATAdditions.h"
+    #import "NSDictionary+IATAdditions.h"
+    #import "UIColor+IATAdditions.h"
+    #import "UIImage+IATAdditions.h"
+    #import "UIView+IATAdditions.h"
+
+#endif
